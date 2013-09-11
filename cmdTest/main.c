@@ -17,6 +17,8 @@ int main(int argc, const char * argv[])
     printf("Hello, World!\n");
     printf("Hey, I am on github!\n");
     printf("1+1 = %d\n",add(1,1));
+    printf("2*3 = %d\n",multiply(2,3));
+    
     return 0;
 }
 
