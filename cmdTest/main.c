@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include "add.h"
+#include "multiply.h"
 
 int main(int argc, const char * argv[])
 {
