@@ -130,6 +130,7 @@
 				FABFC07F17E1082300B26F74 /* main.c in Sources */,
 				FA47CA8017E11477007413C5 /* multiply.c in Sources */,
 				FA47CA7817E10F97007413C5 /* add.c in Sources */,
+				FA47CA7C17E11345007413C5 /* subtract.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
