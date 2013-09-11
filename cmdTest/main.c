@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include "add.h"
-
+#include "subtract.h"
 int main(int argc, const char * argv[])
 {
 
@@ -16,6 +16,7 @@ int main(int argc, const char * argv[])
     printf("Hello, World!\n");
     printf("Hey, I am on github!\n");
     printf("1+1 = %d\n",add(1,1));
+    printf("2-1 = %d\n",subtract(2,1));
     return 0;
 }
 

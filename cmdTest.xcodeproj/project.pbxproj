@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA47CA7817E10F97007413C5 /* add.c in Sources */ = {isa = PBXBuildFile; fileRef = FA47CA7717E10F97007413C5 /* add.c */; };
+		FA47CA7C17E11345007413C5 /* subtract.c in Sources */ = {isa = PBXBuildFile; fileRef = FA47CA7B17E11345007413C5 /* subtract.c */; };
 		FABFC07F17E1082300B26F74 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FABFC07E17E1082300B26F74 /* main.c */; };
 		FABFC08117E1082300B26F74 /* cmdTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FABFC08017E1082300B26F74 /* cmdTest.1 */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		FA47CA7717E10F97007413C5 /* add.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = add.c; sourceTree = "<group>"; };
 		FA47CA7A17E10FD7007413C5 /* add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = add.h; sourceTree = "<group>"; };
+		FA47CA7B17E11345007413C5 /* subtract.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subtract.c; sourceTree = "<group>"; };
+		FA47CA7D17E11371007413C5 /* subtract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subtract.h; sourceTree = "<group>"; };
 		FABFC07B17E1082300B26F74 /* cmdTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cmdTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABFC07E17E1082300B26F74 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		FABFC08017E1082300B26F74 /* cmdTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cmdTest.1; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				FABFC08017E1082300B26F74 /* cmdTest.1 */,
 				FA47CA7717E10F97007413C5 /* add.c */,
 				FA47CA7A17E10FD7007413C5 /* add.h */,
+				FA47CA7B17E11345007413C5 /* subtract.c */,
+				FA47CA7D17E11371007413C5 /* subtract.h */,
 			);
 			path = cmdTest;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			files = (
 				FABFC07F17E1082300B26F74 /* main.c in Sources */,
 				FA47CA7817E10F97007413C5 /* add.c in Sources */,
+				FA47CA7C17E11345007413C5 /* subtract.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
